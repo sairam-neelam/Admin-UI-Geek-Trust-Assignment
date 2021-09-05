@@ -2,4 +2,4 @@
 
 - Registering User
 - Updating User Details
-- Deleting User Details
+- Deleting User
