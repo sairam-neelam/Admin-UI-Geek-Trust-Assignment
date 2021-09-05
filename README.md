@@ -1,8 +1,5 @@
-# Debugging using Developer Tools
+# Creating List of Users With CRUD Operations
 
-- Debugging
-- Browser Developer Tools
-  - Selecting and changing HTML, CSS
-  - Checking Responsiveness
-- React Developer Tools
-  - Inspecting Components
+- Registering User
+- Updating User Details
+- Deleting User Details
