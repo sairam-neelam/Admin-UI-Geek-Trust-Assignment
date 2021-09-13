@@ -3,6 +3,16 @@
   flex-direction: column;
   align-items: center;
   padding: 15px;
+  min-height: 100vh;
+}
+
+.search-input {
+  border: 1px solid #dbdbdb;
+  outline: none;
+  font-family: Roboto;
+  width: 90%;
+  padding: 5px;
+  border-radius: 5px;
 }
 
 table {
@@ -12,14 +22,13 @@ table {
 
 th,
 td {
-  border: 1px solid #dbdbdb;
+  border-bottom: 1px solid #dbdbdb;
   padding: 8px;
   font-size: 32px;
-  text-align: center;
 }
 
 th {
-  background-color: #a5a1b5;
+  background-color: #ffffff;
   font-family: Roboto;
   font-size: 18px;
 }
@@ -42,20 +51,21 @@ td {
   }
 }
 
-.table-container {
-  background-color: #d5e6e0;
-  min-height: 100vh;
+.checkbox {
+  width: 15px;
+  height: 15px;
 }
 
 .icon-column {
   display: flex;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 
 .action-green-icon {
   color: #4eeb3f;
   width: 25px;
   height: 25px;
+  margin-right: 25px;
 }
 
 .action-red-icon {
@@ -74,4 +84,54 @@ td {
 .main-heading {
   font-family: Roboto;
   font-size: 30px;
+}
+
+.pagination-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.page-btn {
+  border-radius: 80px;
+  border: 1px solid #1bc9f5;
+  width: 30px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 15px;
+  margin: 10px;
+  background: #1bc9f5;
+}
+
+.active {
+  background: transparent;
+}
+
+.arrow-btn {
+  border-radius: 80px;
+  border: 1px solid #080808;
+  width: 30px;
+  height: 30px;
+  font-family: Roboto;
+  font-size: 15px;
+  margin: 10px;
+  background: #ffffff;
+}
+
+.delete-button {
+  border: none;
+  color: #ffffff;
+  background-color: #f22259;
+  font-family: Roboto;
+  font-size: 15px;
+  border-radius: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+.selected-row {
+  background-color: grey;
 }
